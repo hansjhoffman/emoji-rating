@@ -1,0 +1,23 @@
+{
+  "name": "star-rating",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Hans Hoffman <hans@joinknack.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@polymer/polymer": "^3.1.0",
+    "@webcomponents/webcomponentsjs": "^2.2.6",
+    "lit-element": "^2.0.0-rc.5"
+  },
+  "devDependencies": {
+    "polymer-cli": "^1.9.5",
+    "prettier": "^1.16.4",
+    "tslint": "^5.12.1",
+    "typescript": "^3.3.1"
+  },
+  "scripts": {
+    "format": "prettier --write '*.{json,ts}'",
+    "lint": "tslint -c tslint.json 'index.ts'",
+    "start": "node_modules/polymer-cli/bin/polymer.js serve"
+  }
+}
